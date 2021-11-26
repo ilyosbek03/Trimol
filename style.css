@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*
+
+Global CSS
+
+*/
+.container{
+    width: 80%;
+    margin: auto;
+}
+.btn{
+    padding: 10px 30px;
+    border: 1px solid crimson;
+    background: transparent;
+    border-radius: 4px;
+    outline: none;
+    color: crimson;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.btn:hover{
+    background:crimson;
+    color:#fff;
+
+}
+li{
+    list-style: none;
+}
+
+
+
+/*
+
+Main CSS
+
+*/
+header{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+
+}
+nav{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+#checked,
+#open_btn,
+#close_btn{
+    display: none;
+}
+.logo h1{
+    background: -webkit-linear-gradient(45deg, #eee,#fff,#d40404, #fd7ef7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.collection{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.banner_container{
+    width: 100%;
+    height: 100vh;
+    background: url(./IMG/women.jpg) no-repeat top/cover;
+}
+.banner{
+    width: 50%;
+    margin-left: 50%;
+    padding-top: 100px;
+  
+}
+.banner h3{
+    background: -webkit-linear-gradient(right, #eee,#fff,#d40404, #fd7ef7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+
+}
+.banner h1{
+    padding: 20px 0;
+    font-size: 4rem;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 1px red;
+}
+.banner p{
+    color: blueviolet;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.6;
+    padding-bottom: 30px;
+}
+.pro_item{
+    text-align: center;
+    padding: 50px 0;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    font-size: 3rem;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    min-width: 260px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin: 8px;
+}
+.card img{
+    width: 100%;
+    padding-bottom: 16px;
+}
+.card p{
+    padding: 16px 0;
+    line-height: 1.4;
+    color: gray;
+}
+.about{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+.about_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 50px;
+}
+.about_left p{
+    padding: 20px 0;
+    color: gray;
+}
+.about_right{
+    width: 50%;
+    height: 100%;
+}
+.women1{
+    background: url(./IMG/women2.jpg) no-repeat center/cover;
+}
+.women2{
+    background: url(./IMG/tired-women.jpg) no-repeat center/cover;
+    margin-right: 50px;
+}
+.footer{
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    background:#F4F4F4;
+    display: flex;
+}
+.box{
+    width: 25%;
+    height: 100%;
+}
+.child{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 25%;
+}
+.icon{
+    margin-left: 20px;
+    width: 20%;
+    font-size: 3.7rem;
+    height: 60%;
+    color: #FBC206;
+    display: flex;
+    align-items: center;
+}
+.info{
+    margin-left: 20px;
+}
+.info h2{
+    color: #333333;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+}
+.box2 .cont{
+    
+}
+.box2 .cont h2{
+    margin-top: 30px;
+}
+.box2 .cont p{
+    margin-top: 20px;
+    color: gray;
+}
+.text{
+    width: 100%;
+    height: 10%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;   
+}
+.pay{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxs{
+    width: 82px;
+    height: 50px;
+    background: #fff;
+    border-radius:5px;
+}
+.zoodpay{
+    background: url(https://elmakon.uz/assets/images/zoodpay.png) no-repeat center/contain;
+}
+.uzcard{
+    background: url(http://static.norma.uz/images/144352_2b4c8789226d85bced8b7a465a7e.jpg) no-repeat center/contain;
+}
+.zoodmall{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1NkIBYdniVRY6RhoGlLLShsJ0do-45BLA29yLPSTkVlCbYrioNxBg4l8zoMhOvhBy6nI&usqp=CAU) no-repeat center/contain;
+}
+.market{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-tzkgu0vhv_mAM5pcsseWt8HqIjnVXwoRjNMZtQHGLft2QgbEWMv_xlZdOa0whsIGwdg&usqp=CAU)no-repeat center/contain;
+}
+.paymart{
+    background: url(https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_09cdc08e395076c37b609b86759b1978/paymart.png)no-repeat center/contain;    
+}
+.payme{
+    background: url(https://www.uzdaily.uz/storage/img/Askar-foto/payme.jpg) no-repeat center/contain;
+}
+.click{
+    background: url(https://docs.click.uz/wp-content/themes/click_help/assets/images/logo.png) no-repeat center/contain;
+}
+.humo{
+    background: url(https://storage.kun.uz/source/3/0l0Et_zvqMGYpXNARW5OuRVK-aUxX7zC.jpg) no-repeat center/contain;
+}
+.info:hover h2{
+    color: #FBC206;
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    .banner h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:900px) {
+    .collection{
+        width: 55%;
+    }
+    .banner{
+        padding-top: 120px;
+    }
+    .banner h1{
+        font-size: 2.5rem;
+    }
+    .banner p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:600px) {
+    .collection{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background: blue;
+        margin-top: 80px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        transform-origin: top;
+        transform: scaleY(0);
+        transition: .5s;
+    }
+    .collection_item{
+        padding: 16px 0;
+    }
+    #open_btn{
+        display: block;
+    }
+    #checked:checked ~ .collection{
+        transform: scaleY(1);
+    }
+    #checked:checked ~ label #open_btn{
+        display: none;
+    }
+    #checked:checked ~ label #close_btn{
+        display: block;
+    }
+    .banner_container{
+        background: url(./IMG/women.jpg) no-repeat right/cover;
+    }
+    .banner{
+        margin-left: 0;
+        width: 100%;
+    }
+    .pro_item{
+        font-size: 2rem;
+    }
+    .about{
+        flex-direction: column;
+        height: auto;
+    }
+    .about_left{
+        width: 100%;
+        padding: 0;
+
+    }
+    .about_right{
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+    }
+    .about_reverse{
+        flex-direction: column-reverse;
+    }
+}
